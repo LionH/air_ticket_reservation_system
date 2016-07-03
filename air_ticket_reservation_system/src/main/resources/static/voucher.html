@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Air Ticket Reservation System</title>
+<link href="css/angular-bootstrap.css" rel="stylesheet">
+<style type="text/css">
+[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+}
+
+body {
+	background-color: black;
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+</style>
+</head>
+
+<body>
+	<div>
+		<script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Voucher</h3>
+        </div>
+        <div class="modal-body">
+			<label for="username">Flight: {{flight}}</label>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="print()">Print</button>
+        </div>
+    	</script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>Air Ticket Reservation System</title>
+<link href="css/angular-bootstrap.css" rel="stylesheet">
+<style type="text/css">
+[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+}
+
+body {
+	background-color: black;
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+</style>
+</head>
+
+<body>
+	<div>
+		<script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Please login</h3>
+        </div>
+        <div class="modal-body">
+		<div class="alert alert-danger" ng-show="error">
+			Username or password incorrects. Please try again.</div>
+		<form role="form">
+			<div class="form-group">
+				<label for="username">Username:</label> <input type="text"
+					class="form-control" id="username" name="username"
+					ng-model="credentials.username" />
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label> <input type="password"
+					class="form-control" id="password" name="password"
+					ng-model="credentials.password" />
+			</div>
+		</form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+        </div>
+    	</script>
+	</div>
+</body>
+</html>

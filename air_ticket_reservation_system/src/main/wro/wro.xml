@@ -1,0 +1,16 @@
+<groups xmlns="http://www.isdc.ro/wro">
+	<group name="angular-bootstrap">
+		<css>webjar:bootstrap/3.3.6/css/bootstrap.css</css>
+		<css>webjar:ui-grid/3.1.1/ui-grid.css</css>
+		<css>file:${project.basedir}/src/main/wro/main.less</css>
+		<js>webjar:jquery.js</js>
+		<js>webjar:bootstrap.js</js>
+		<js>webjar:angular.js</js>
+		<js>webjar:angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.js</js>
+		<js>webjar:ui-grid/3.1.1/ui-grid.min.js</js>
+		<js>webjar:angular-dynamic-locale/0.1.32/tmhDynamicLocale.min.js</js>
+<!-- 		<js>webjar:angularjs/1.5.7/angular-route.min.js</js> -->
+		<js>webjar:angular-ui-router/1.0.0-alpha.5/angular-ui-router.min.js</js>
+<!-- 		<js>webjar:angular-formly/6.16.1/formly.min.js</js> -->
+	</group>
+</groups>
